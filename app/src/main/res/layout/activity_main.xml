@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        app:cardElevation="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        app:cardCornerRadius="30dp"
+        >
+    <EditText
+        android:id="@+id/edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textAlignment="center"
+        android:background="@null"
+        android:textSize="20sp"
+        android:autofillHints="false"
+        android:hint="@string/enter_phone_number"
+        android:inputType="phone"
+        tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/btn_call"
+        android:layout_width="90dp"
+        android:layout_height="70dp"
+        android:layout_below="@id/card"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:onClick="makeCall"
+        android:src="@drawable/call"
+        android:text="@string/make_call"
+        android:textSize="22sp"
+        android:backgroundTint="#FF0000"
+        />
+
+
+</RelativeLayout>
