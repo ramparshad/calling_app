@@ -1,1 +1,1 @@
-![My Image](https://github.com/ramparshad/calling_app/blob/5f32a712057e8fa0ee832c31f78a66cacae198c2/loading1.mp4)
+![image1](https://github.com/ramparshad/calling_app/blob/2c92aed9dc7147d98d7f2e21548150ef48a021a1/app/loading1_converted.gif)
